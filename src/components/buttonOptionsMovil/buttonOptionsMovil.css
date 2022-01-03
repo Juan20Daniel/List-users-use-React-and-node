@@ -1,0 +1,37 @@
+.optionsMovil {
+    position: relative;
+}
+.optionsMovil img {
+    cursor: pointer;
+}
+.optionsMovil .options {
+    position: absolute;
+    display: none;
+    width: 48px;
+    top:0;
+    left: -50px;
+    background-color: white;
+    box-shadow: 0 0 1px black;
+}
+.optionsMovil .openMenu {
+    display: block;
+}
+.optionsMovil .options button {
+    display: block;
+    background-color: white;
+    border: none;
+    color: rgb(119, 119, 119);
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+    width: 100%;
+    text-align: start;
+    transition: all 0.2s ease;
+}
+.optionsMovil .options button:hover {
+    background-color: rgb(214, 214, 214);
+}
+@media(min-width: 540px) {
+    .optionsMovil {
+        display: none;
+    }
+}
