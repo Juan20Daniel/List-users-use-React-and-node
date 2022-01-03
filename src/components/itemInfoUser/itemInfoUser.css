@@ -1,0 +1,27 @@
+.modal-title {
+    font-size: 4rem;
+    width: 100%;
+    margin: 0 0 2rem;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+.user-info {
+    width: calc(100% - 2rem);
+    padding-bottom: 1rem;
+    margin: 0 2rem;
+}
+.user-info .title {
+    padding: 0.5rem 0;
+    font-size: 2rem;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: rgb(83, 83, 83);
+}
+.value {
+    width: calc(100% - 2rem);
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    background: rgba(255, 160, 255, 0.404);
+    border-radius: 20px;
+}

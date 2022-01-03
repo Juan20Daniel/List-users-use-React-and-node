@@ -1,0 +1,19 @@
+.formLoginSigin {
+    position: relative;
+    min-width: 320px;
+    max-width: 420px;
+    margin: 5rem auto 15rem;
+    background: white;
+}
+.formLoginSigin::after {
+    position: absolute;
+    bottom: -80px;
+    border-radius: 50px;
+    width: 90%;
+    left: 5%;
+    height: 200px;
+    background: rgb(212, 212, 212);
+    content: ' ';
+    filter: blur(25px);
+    z-index: -1;
+}

@@ -1,0 +1,43 @@
+.modalBox {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.514);
+    z-index: 2;
+    overflow: auto;
+    transition: all 0.3s ease;
+    bottom: -100%;
+}
+.modalBox::-webkit-scrollbar {
+    display: none;
+}
+.closeModal {
+    bottom: 0;
+}
+.modal__content {
+    position: relative;
+    width: 100%;
+    border-radius: 3rem 3rem 0 0;
+    margin-top: 50vh;
+    background-color: white;
+}
+.modal__buton-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: none;
+}
+.modal__buton-close img {
+    width: 100%;
+    height: 100%;
+}
+.modal__img-user {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
